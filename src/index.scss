@@ -1,0 +1,236 @@
+html,body{ 
+  background-color: #2b2b2b;
+  font-family: Raleway Flex,Raleway-Fallback,sans-serif;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  padding-right: 20px;
+  background-color: #252525;
+}
+
+nav img {
+  height: 110px;
+  margin-top: -5px;
+  margin-bottom: -15px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+  position: relative;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  color: #8d8d8d;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+  background-color: #252525;
+  border: 1px solid #303030;
+}
+
+li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  margin: 5px;
+}
+
+.submenu a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cartes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.cartes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 2rem;
+  max-width: 1400px;
+}
+
+.carte {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  height: 300px;
+}
+
+.title-shop {
+  margin-left: 10%;
+  margin-bottom: 2rem;
+  font-size: 3.75rem;
+  color: #fff;
+  letter-spacing: .01em
+}
+
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.prix {
+  color: #bbb;
+}
+
+.produit {
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 30%;
+}
+
+.produit h2 {
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.produit img {
+	max-width: 100%;
+  text-align: center;
+}
+
+.produit p {
+	font-size: 1.2em;
+  color: #999999;
+  text-align: center;
+}
+
+.produit button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+header {
+  width: 100%; 
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+	padding: 20px;
+}
+
+.presentation {
+	margin-top: -190px;
+}
+
+.presentation h2, .regles h2, .plateau h2, .equipe h2 {
+	margin-top: 2%;
+  font-size: 2em;
+  color: #d8c597;
+}
+
+ h3, h4  {
+  color: #d8c597;
+}
+
+.presentation p, .regles p, .plateau p, .equipe p {
+	font-size: 1.2em;
+  color: #bbb;
+  padding-inline: 1%;
+}
+
+.plateau img {
+	max-width: 50%;
+	margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: inherit;
+}
+
+.card {
+  width: 30%;
+}
+
+footer {
+	background-color: #252525;
+	color: #8d8d8d;
+	padding: 20px;
+	text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plateau-text {
+  max-width: 55%;
+}
+
+.plateau-img {
+  max-width: 40%;
+}
+
+.plateau-img img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1em;
+  color: #000;
+}
+
+
+
+
