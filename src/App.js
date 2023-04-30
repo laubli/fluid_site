@@ -19,12 +19,6 @@ const App = () => {
       </>,
     },
     {
-      path: "/deck",
-      element: <>
-        <Nav/>
-      </>,
-    },
-    {
       path: "/deck/guerrier",
       element: <>  
         <Nav/>

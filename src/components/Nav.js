@@ -14,7 +14,7 @@ function Nav() {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <NavLink to="/deck" activeClassName="active">Deck</NavLink>
+            <NavLink activeClassName="active">Deck</NavLink>
             <ul className="submenu">
               <li><NavLink to="/deck/guerrier" activeClassName="active">Guerrier</NavLink></li>
               <li><NavLink to="/deck/dragon" activeClassName="active">Dragon</NavLink></li>
