@@ -9,6 +9,7 @@ function Nav() {
         <Link to="/">
           <img src={logo} alt="Logo" />
         </Link>
+        
         <ul>
           <li>
             <Link to="/">Accueil</Link>

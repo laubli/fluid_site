@@ -232,6 +232,9 @@ figcaption {
 }
 
 
+.menu-toggle {
+  display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -249,6 +252,16 @@ figcaption {
   li {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+
+  .menu-toggle {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+    margin-right: 1rem;
   }
 
   header img {
