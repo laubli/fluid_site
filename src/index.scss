@@ -311,7 +311,7 @@ figcaption {
   }
 
   .cards {
-    display: block;
+    display: block !important;
   }
 
   .card {
@@ -319,6 +319,6 @@ figcaption {
   }
 
   .flex {
-    display: block;
+    display: block !important;
   }
 }
