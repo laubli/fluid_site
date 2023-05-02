@@ -234,3 +234,78 @@ figcaption {
 
 
 
+@media (max-width: 768px) {
+  /* Réduire la taille de la police pour les appareils mobiles */
+  nav a {
+    font-size: 16px;
+  }
+  
+  /* Ajuster l'espacement entre les éléments pour les appareils mobiles */
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  header img {
+    object-fit: contain;
+    height: 80%;
+    margin-bottom: 0;
+  }
+  
+  /* Ajuster la taille des cartes pour les appareils mobiles */
+  .cartes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Ajuster la taille de l'en-tête pour les appareils mobiles */
+  header {
+    height: 300px;
+  }
+  
+  .presentation {
+    margin-top: -130px;
+  }
+  
+  .title-shop {
+    margin-left: 5%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .produit {
+    width: 45%;
+  }
+
+  .plateau-img {
+    max-width: 100%;
+  }
+
+  .plateau img {
+    max-width: 100%;
+  }
+  
+  .plateau-img img {
+    max-width: 100%;
+  }
+
+  .plateau-text {
+    max-width: 100%;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .flex {
+    display: block;
+  }
+}
